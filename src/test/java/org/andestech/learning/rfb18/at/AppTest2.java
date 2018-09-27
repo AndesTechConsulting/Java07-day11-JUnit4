@@ -49,7 +49,7 @@ public class AppTest2 {
 
     @Test
     public void test333(){
-        System.out.println("++ " +
+        System.out.println("+++++ " +
         Thread.currentThread().getStackTrace()[1].getMethodName());
         //.. loging
         try { Thread.sleep(170);} catch (InterruptedException e) {e.printStackTrace();
